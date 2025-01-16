@@ -66,7 +66,7 @@ const ColoringBookPrompt = () => {
                     disabled={loading || images.length >= 3}
                     className={`generate-button ${loading ? 'loading' : ''} ${images.length >= 3 ? 'disabled' : ''}`}
                 >
-                    {loading ? 'Generating...' : images.length >= 3 ? 'Max Images Reached' : 'Generate Image'}
+                    {loading ? 'Generating...one moment' : images.length >= 3 ? 'Max Images Reached' : 'Generate Image'}
                 </button>
 
             </div>
